@@ -1,0 +1,57 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:id="@+id/bQuitter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="188dp"
+        android:layout_marginLeft="170dp"
+        android:height="75dp"
+        android:text="Quitter"
+        android:width="900dp" />
+
+    <Button
+        android:id="@+id/bClasse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="140dp"
+        android:text="Gestion des classes"
+        android:width="300dp" />
+
+    <Button
+        android:id="@+id/bMatiere"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/bClasse"
+        android:layout_centerHorizontal="true"
+        android:text="Gestion des matières"
+        android:width="300dp" />
+
+    <Button
+        android:id="@+id/bDevoir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/bClasse"
+        android:layout_alignLeft="@+id/bClasse"
+        android:layout_marginBottom="45dp"
+        android:text="Gestion des devoirs"
+        android:width="300dp" />
+
+    <Button
+        android:id="@+id/bEleve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/bMatiere"
+        android:layout_below="@+id/bMatiere"
+        android:text="Gestion des élèves"
+        android:width="300dp" />
+
+</RelativeLayout>
